@@ -1,0 +1,53 @@
+:root {
+    --primary-color :#333e48;
+    --White-color : #fff;
+    --Black-color : #000;
+
+    --black-color : #000;
+    --text-color : #252a2b;
+    --border-color: #dbdbdb; 
+
+    --header-height: 80px;
+    --header-height-mobile-table: 60px;
+
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; 
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#app {
+    overflow: hidden;
+}
+
+#subpage {
+    overflow: hidden; 
+}
+
+
+.grid__column-2{
+    width: 50%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.grid__column-2-2{
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 50%;
+}
+
+.grid__column-4{
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 25%;
+}
